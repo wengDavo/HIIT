@@ -1,6 +1,6 @@
 def main():
     print("Weng Davo")
-    print("Software Engineering")
+    print("Pyhton")
     value = int(input("Rate this work:"))
     msg_good = "Thank you "
     msg_bad = "I'll do better next time "
