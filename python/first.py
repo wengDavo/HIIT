@@ -2,9 +2,10 @@ def main():
     print("Weng Davo")
     print("Software Engineering")
     value = int(input("Rate this work:"))
-    msg_good = "Thank you for giving my work a rating of ",value
-    msg_bad = "Wow you gave my working a rate of ",value
-    print(msg_good if value > 50 else msg_bad)
+    msg_good = "Thank you "
+    msg_bad = "I'll do better next time "
+    msg = msg_good if value > 50 else msg_bad
+    print(msg)
 
 if __name__ == "__main__":
     main()
