@@ -4,7 +4,8 @@
 # "object-oriented programming with python"
 
 
-message = "Python is an interpreted, interactive, object-oriented programming language that combines remarkable power with very clear syntax"
+message = "Python is an interpreted, interactive, object-oriented programming\
+ language that combines remarkable power with very clear syntax"
 
 string_1 = message[39:67]
 string_2 = message[107:112]
